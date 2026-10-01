@@ -1,28 +1,59 @@
-# AI Data Handling Standard
+# Microsoft 365 Copilot Security Readiness Checklist
 
-> Fictional educational standard for the M365 Copilot Security Lab.
+> Fictional educational checklist for the M365 Copilot Security Lab.
 
-## 1. Purpose
+## Identity & Access
 
-## 2. Data Handling Principles
+- [ ] User identity requirements reviewed
+- [ ] MFA requirements reviewed
+- [ ] Access permissions reviewed
+- [ ] Administrative access reviewed
+- [ ] Licensing requirements reviewed
 
-## 3. Information Categories
-### Public
-### Internal
-### Confidential
-### Restricted
-### Credentials and Authentication Secrets
+## Data Security
 
-## 4. Minimum Data Handling Rules
+- [ ] Information categories defined
+- [ ] Sensitive information identified
+- [ ] Data handling requirements documented
+- [ ] Excessive access reviewed
+- [ ] Data minimization guidance established
 
-## 5. Prompt Data Minimization
+## AI Governance
 
-## 6. File and Document Handling
+- [ ] AI acceptable use policy established
+- [ ] User responsibilities documented
+- [ ] Prohibited uses documented
+- [ ] Human review requirements established
+- [ ] Incident reporting process defined
 
-## 7. AI-Generated Output
+## Copilot Output
 
-## 8. Unexpected Data Exposure
+- [ ] Users are instructed to verify AI-generated content
+- [ ] Calculations should be independently checked
+- [ ] References and citations should be validated
+- [ ] Generated code should be tested safely
+- [ ] Outputs should be checked for unintended disclosure
 
-## 9. User Responsibilities
+## Training & Adoption
 
-## 10. Lab Disclaimer
+- [ ] User training developed
+- [ ] Security awareness included in training
+- [ ] Approved use cases documented
+- [ ] Department-specific examples developed
+- [ ] Ongoing feedback process considered
+
+## Incident Readiness
+
+- [ ] AI-related security concerns are defined
+- [ ] Reporting expectations are documented
+- [ ] Credential exposure is addressed
+- [ ] Unexpected information access is addressed
+- [ ] Relevant evidence should be preserved
+
+## Final Review
+
+- [ ] Identity reviewed
+- [ ] Data protection reviewed
+- [ ] Governance reviewed
+- [ ] Training reviewed
+- [ ] Security considerations documented
