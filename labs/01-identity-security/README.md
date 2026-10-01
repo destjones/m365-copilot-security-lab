@@ -56,6 +56,18 @@ It does not connect to:
 - PSCustomObject
 - Export-Csv
 
+## Lab Results
+
+The PowerShell script successfully analyzed the fictional identity dataset and generated an MFA audit report.
+
+The report indentifies:
+
+- Who has MFA enabled
+- Who requires MFA review
+- MFA adoption percentage
+- MFA review counts by department
+
+
 ## Disclaimer
 
 The "PASS" and "REVIEW REQUIRED" statuses used in this lab
