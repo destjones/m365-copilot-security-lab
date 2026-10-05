@@ -274,8 +274,6 @@ The resulting security classifications are educational lab classifications and d
 # PowerShell Automation
 
 PowerShell is used throughout this project to turn security and governance concepts into repeatable technical exercises.
-The first script:
-PowerShell is used throughout this project to turn security and governance concepts into repeatable technical exercises. 
 
 ## Get-MFAStatus.ps1 Used in Lab 01 to analyze fictional MFA information. 
 
