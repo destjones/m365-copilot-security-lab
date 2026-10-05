@@ -1,0 +1,7 @@
+﻿DisplayName,Department,MFAEnabled,CopilotAccess,AITrainingComplete,SecurityReview
+Alex Carter,Accounting,TRUE,TRUE,TRUE,Complete
+Jordan Lee,Operations,TRUE,TRUE,FALSE,Complete
+Casey Rivera,HR,FALSE,TRUE,TRUE,Pending
+Taylor Morgan,IT,TRUE,FALSE,TRUE,Complete
+Morgan Reed,Accounting,TRUE,TRUE,TRUE,Complete
+Avery Brooks,Operations,FALSE,TRUE,FALSE,Pending
