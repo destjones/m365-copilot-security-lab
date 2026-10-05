@@ -1,0 +1,7 @@
+﻿"DisplayName","Department","MFAStatus","CopilotAccessStatus","TrainingStatus","SecurityReviewStatus","OverallStatus","ReviewReasons"
+"Alex Carter","Accounting","PASS","PASS","PASS","PASS","READY","None"
+"Jordan Lee","Operations","PASS","PASS","REVIEW","PASS","REVIEW REQUIRED","AI Training"
+"Casey Rivera","HR","REVIEW","PASS","PASS","REVIEW","REVIEW REQUIRED","MFA; Security Review"
+"Taylor Morgan","IT","PASS","REVIEW","PASS","PASS","REVIEW REQUIRED","Copilot Access"
+"Morgan Reed","Accounting","PASS","PASS","PASS","PASS","READY","None"
+"Avery Brooks","Operations","REVIEW","PASS","REVIEW","REVIEW","REVIEW REQUIRED","MFA; AI Training; Security Review"
