@@ -68,8 +68,11 @@ m365-copilot-security-lab/
 │   └── security-checklist.md
 │
 ├── labs/
-│   └── 01-identity-security/
-│       └── README.md
+│ ├── 01-identity-security/
+│ │ └── README.md
+│ │
+│ └── 02-copilot-security-readiness/
+│ └── README.md
 │
 ├── prompts/
 │   ├── accounting.md
@@ -78,13 +81,16 @@ m365-copilot-security-lab/
 │   └── it.md
 │
 ├── scripts/
-│   └── Get-MFAStatus.ps1
+│   ├── Get-MFAStatus.ps1
+│   └── Test-CopilotSecurityReadiness.ps1
 │
 ├── sample-data/
-│   └── fictional-users.csv
+│   ├── fictional-users.csv
+│   └── fictional-copilot-users.csv
 │
 └── reports/
-    └── mfa-audit-report.csv
+    ├── mfa-audit-report.csv
+    └── copilot-readiness-report.csv
 ```
 
 ---
@@ -154,33 +160,28 @@ Provides a structured review framework covering identity, data security, AI gove
 
 # Hands-On Security Labs
 
-Documentation alone does not demonstrate technical implementation.
-
-The `labs/` directory contains hands-on exercises that connect governance and security concepts with technical experimentation.
+The `labs/` directory contains technical exercises that connect
+Microsoft 365 Copilot security and governance concepts with
+PowerShell automation and fictional data.
 
 ## Lab 01: Identity Security Foundation
 
-The first lab explores MFA security analysis using fictional Microsoft 365 user information.
-
-### Objective
-
-Use PowerShell to analyze a fictional identity dataset and identify accounts requiring MFA review.
+Lab 01 explores identity security by using PowerShell to analyze
+fictional MFA information.
 
 ### Lab Workflow
 
 ```text
-Fictional User Dataset
-        ↓
-     PowerShell
-        ↓
-   MFA Analysis
-        ↓
-Security Summary
-        ↓
-Generated Report
+Fictional Identity Dataset
+          ↓
+      PowerShell
+          ↓
+      MFA Analysis
+          ↓
+  Generated MFA Report
 ```
 
-### The Lab Demonstrates
+### Key Concepts
 
 - CSV data processing
 - PowerShell variables
@@ -192,14 +193,78 @@ Generated Report
 - Custom PowerShell objects
 - Security report generation
 
-### Lab Files
+### Lab Components
 
 ```text
+labs/01-identity-security/README.md
+            ↓
 sample-data/fictional-users.csv
             ↓
 scripts/Get-MFAStatus.ps1
             ↓
 reports/mfa-audit-report.csv
+```
+## Lab 02: Copilot Security Readiness Assessment
+
+Lab 02 expands the project from a single identity-security check into a multi-control fictional Copilot readiness assessment.
+
+The lab evaluates four criteria:
+
+- MFA enabled
+- Copilot access
+- AI training completed
+- Security review completed
+
+### Lab Workflow 
+```
+Fictional Copilot Dataset
+          ↓
+      PowerShell
+          ↓
+ ┌────────┼────────┐
+ ↓        ↓        ↓
+MFA    Copilot   Training
+        Access
+          ↓
+   Security Review
+          ↓
+  Readiness Assessment
+          ↓
+   Generated Report
+```
+Users who satisfy all four fictional lab criteria receive:
+
+READY
+
+Users who require additional review receive:
+
+REVIEW REQUIRED
+
+The script also identifies the specific controls requiring review.
+
+### Key Concepts
+
+- Multi-control security assessment
+- Identity security
+- Copilot access
+- AI governance
+- Security awareness
+- Input validation
+- PowerShell automation
+- Error handling
+- Security reporting
+- Readiness analysis
+
+### Lab Components
+
+```text
+labs/02-copilot-security-readiness/README.md
+                    ↓
+sample-data/fictional-copilot-users.csv
+                    ↓
+scripts/Test-CopilotSecurityReadiness.ps1
+                    ↓
+reports/copilot-readiness-report.csv
 ```
 
 The resulting security classifications are educational lab classifications and do not represent official Microsoft security or compliance determinations.
@@ -208,40 +273,52 @@ The resulting security classifications are educational lab classifications and d
 
 # PowerShell Automation
 
-PowerShell is used in this project to explore how security and administrative reviews can be automated.
-
+PowerShell is used throughout this project to turn security and governance concepts into repeatable technical exercises.
 The first script:
+PowerShell is used throughout this project to turn security and governance concepts into repeatable technical exercises. 
 
-```text
-scripts/Get-MFAStatus.ps1
-```
+## Get-MFAStatus.ps1 Used in Lab 01 to analyze fictional MFA information. 
 
-performs a fictional MFA audit by:
+The script demonstrates: 
 
-1. Importing fictional user information.
-2. Validating the source dataset.
-3. Identifying users with and without MFA.
-4. Calculating MFA adoption.
-5. Grouping results by department.
-6. Identifying accounts requiring review.
-7. Creating structured security results.
-8. Exporting a CSV report.
+- CSV import
+-  Data filtering
+-  Conditional logic
+-  MFA adoption calculations
+-  Department grouping
+-  Custom PowerShell objects
+-  CSV report generation
 
-The script does **not** connect to Microsoft Graph, Microsoft Entra ID, or a production Microsoft 365 tenant.
+##  Test-CopilotSecurityReadiness.ps1 
 
+Used in Lab 02 to perform a fictional multi-control Copilot readiness assessment. 
+
+The script demonstrates: 
+- Input validation
+- Required-column validation
+- Multiple control checks
+- Review-reason tracking
+- Readiness calculations
+- Department-level analysis
+- Error handling
+- Reliable project-relative file paths
+- Automated CSV report generation
+- Report verification
+
+Neither script connects to Microsoft Graph, Microsoft Entra ID, or a production Microsoft 365 environment.
 ---
 
 # Sample Data
 
 All technical exercises use artificial data.
 
-Example:
+# Sample Data
 
-```text
-sample-data/fictional-users.csv
-```
+All technical exercises use fictional or synthetic information.
 
-The sample dataset may contain fictional attributes such as:
+Current datasets include:
+
+- `sample-data/
 
 ```text
 DisplayName
@@ -324,8 +401,11 @@ The examples are intended for educational demonstration and should not contain r
 - [x] Create fictional identity dataset
 - [x] Build MFA PowerShell audit
 - [x] Generate security report
-- [ ] Lab 02: Copilot Security Readiness
-- [ ] Data access and oversharing lab
+- [x] Lab 02: Copilot Security Readiness
+- [x] Create fictional Copilot readiness dataset
+- [x] Build Copilot readiness PowerShell assessment
+- [x] Generate Copilot readiness report
+- [ ] Lab 03: Data Access and Oversharing
 
 ## Adoption
 
