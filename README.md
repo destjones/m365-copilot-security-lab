@@ -308,10 +308,6 @@ Neither script connects to Microsoft Graph, Microsoft Entra ID, or a production 
 
 # Sample Data
 
-All technical exercises use artificial data.
-
-# Sample Data
-
 All technical exercises use fictional or synthetic information.
 
 Current datasets include:
